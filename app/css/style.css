@@ -315,3 +315,17 @@
 .btn:hover {
 	text-decoration: none;
 }
+
+.lsow-title-link {
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-ignite-listing ul {
+	padding-left: 20px;
+}
+
+.banner-block__inn-mobile {
+	display: none;
+}

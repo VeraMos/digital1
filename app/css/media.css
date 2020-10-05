@@ -76,6 +76,10 @@
     	width: 70%;
 	}
 
+	.header-menu__list {
+		display: none;
+	}
+
 }
 
 
@@ -174,6 +178,7 @@
 	.section-ttl {
     	font-size: 30px;
     	line-height: 35px;
+    	padding: 25px 0 25px;
 	}
 
 	.advant-item img {
@@ -224,6 +229,7 @@
 	.clients {
      	background: transparent;
      	padding: 30px 0 50px;
+     	display: none;
      }
 
      .our-help {
@@ -320,6 +326,7 @@
     	height: 50px;
     	width: 50px;
     	margin: 20px 0;
+    	padding: 20px;
     }
 
     .servises__item-inn {
@@ -343,6 +350,7 @@
     .banner-ttl {
     	max-width: 100%;
     	text-align: center;
+    	color: #11b3e8;
 	}
 
 	.btn-banner {
@@ -375,6 +383,7 @@
 	.banner-text {
     	font-size: 18px;
     	line-height: 22px;
+    	color: #7cc821;
 	}
 
 	.footer_top {
@@ -400,6 +409,108 @@
 	.clients-item {
     	max-width: 100%;
     	margin: 15px 35px;
+	}
+
+	.lsow-grid-container.lsow-grid-desktop-3 .lsow-grid-item {
+    	width: 90%;
+    	float: none;
+    	margin: 20px;
+    	height: auto;
+	}
+
+	.lsow-service {
+		padding: 20px 0;
+	}
+
+	.panel-grid.panel-has-style>.panel-row-style, .panel-grid.panel-no-style {
+		flex-wrap: wrap;
+	}
+
+	.process-two-column .panel-grid-cell {
+		padding: 20px 0;
+	}
+
+	.process-two-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+	#panel-9952-2-1-0> .panel-widget-style {
+		min-height: 222px;
+	}
+
+	.header-btn svg {
+    	margin: -20px 0 0 -3px;
+	}
+
+	.contacts-next {
+		padding: 20px;
+	}
+
+	.contacts-next__ttl {
+		font-size: 23px;
+	}
+
+	.contacts-next__btn {
+		text-align: center;
+	}
+
+	.prev-left__rev {
+		background-size: 50% 50%;
+    	top: -1px;
+    	left: 0px;
+	}
+
+	.prev-right__rev {
+		background-size: 50% 50%;
+    	top: 90%;
+    	right: -42px;
+	}
+
+	.deliver-success {
+		padding: 0;
+		background-size: contain;
+		margin-top: 10px; 
+	}
+
+	.banner-block__img {
+		display: none;
+	}
+
+	.service-box {
+    	width: 100%;
+    	height: 250px;
+	}
+
+	.service-box p {
+		font-size: 20px;
+	}
+
+	.services-inner-wrapper {
+		justify-content: center;
+	}
+
+	.banner-block__inn-mobile {
+		display: block;
+	}
+
+	.banner {
+		display: block;
+	    padding: 40px 20px 40px 20px;
+	    background-image: url('../img/mobile-homepage-header.jpg');
+	    background-size: cover;
+	    text-align: center;
+	}
+
+	.deliver-success__ttl {
+		font-size: 25px;
+		line-height: 27px;
+		padding: 30px 0 0;
+		margin-bottom: 20px;
+	}
+
+	.newsletter__inn form {
+		margin: 10px 0;
+		display: block;
 	}
 }
 

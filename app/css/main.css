@@ -229,7 +229,7 @@ blockquote{
 blockquote::before {
   content: "";
   display: block;
-  background:url(../../../../../../themes/ignite/images/white-quote.png) 0 0 no-repeat;
+  background:url('../img/white-quote.png') 0 0 no-repeat;
   width:46px;
   height: 36px;
   position:absolute;
@@ -240,7 +240,7 @@ blockquote::before {
 blockquote::after {
   content: "";
   display: block;
-  background:url(../../../../../../themes/ignite/images/white-quote-right.png) 0 0 no-repeat;
+  background:url('../img/white-quote-right.png') 0 0 no-repeat;
   width:46px;
   height: 36px;
   position:absolute;
@@ -2556,7 +2556,7 @@ table {
 
 .why-ignite-listing ul li{
   font-size:24px;
-  list-style-image:url(../../../../../../themes/ignite/images/bullet.png);
+  list-style-image:url('../img/bullet.png');
   margin-bottom:15px;
 }
 
@@ -2692,11 +2692,11 @@ table {
 }
 
 .process-column-inner h4 {
-    font-size: 24px;
-    color: #fff;
+  font-size: 24px;
+  color: #fff;
   font-weight:300;
-    padding-bottom: 50px;
-  background:url(../../../../../../themes/ignite/images/green-plus-icon.png) center bottom no-repeat;
+  padding-bottom: 50px;
+  background:url('../img/green-plus-icon.png') center bottom no-repeat;
 }
 
 #process-column-two .process-column-inner {
@@ -5869,9 +5869,6 @@ Media Queries
 
 @media only screen and (max-width: 740px) {
 
-  #entry-header-container {
-      background-image: url(../../../../../../themes/ignite/images/ig-internal-entry-header-mobile.jpg) !important;
-  }
 
   .footer-contact-us {
       background-image: url(../../../../../../themes/ignite/images/ig-visibility-footer-mobile.jpg) !important;
@@ -22139,4 +22136,45 @@ body .gform_wrapper.gf_form_center_wrapper {
     background-image: url('../img/Ignite-your-online-visibility-bg.jpg');
     background-position: center center;
     background-size: cover;
+}
+
+#panel-9952-1-0-0>.panel-widget-style {
+    background-image: url('../img/process-expert-staff.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#panel-9952-2-1-0>.panel-widget-style {
+    background-image: url('../img/ig-jhon-image.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.lsow-services.lsow-style1 .lsow-service .lsow-image-wrapper img {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto 25px;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.lsow-grid-container.lsow-grid-desktop-3 .lsow-grid-item {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+}
+
+.lsow-services.lsow-style1 .lsow-service:hover .lsow-image-wrapper img {
+    -webkit-transform: scale(.9,.9);
+    transform: scale(.9,.9);.lsow-services.lsow-style1 .lsow-service:hover .lsow-image-wrapper img {
+    -webkit-transform: scale(.9,.9);
+    transform: scale(.9,.9);
+}
+
+.process-services .lsow-services.lsow-style1 .lsow-service .lsow-service-text .lsow-title {
+    font-size: 25px;
+    color: #4c3165;
+    text-transform: none;
+    font-weight: 600;
 }
